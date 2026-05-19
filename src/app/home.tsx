@@ -34,39 +34,39 @@ export default function Home() {
   const academias: Academia[] = [
     {
       id: "1",
-      nome: "Smart Fit",
-      rua: "Av. Vinte e Seis de Março, 701 - Centro",
+      nome: "Espaço Alphaville",
+      rua: "Calcada das margaridas 191",
       cidade: "Barueri",
       estado: "SP",
-      cep: "06401-050",
+      cep: "06453-038",
       imagem: require("../assets/image.png"),
     },
     {
       id: "2",
-      nome: "Blue Fit",
-      rua: "Av. Trindade, 344 Bethaville I",
+      nome: "Studio Paris",
+      rua: "Centro Comercial de Alphaville, na Calçada das Orquídeas, número 195",
       cidade: "Barueri",
       estado: "SP",
-      cep: "06404-326",
-      imagem: require("../assets/blueFit.jpeg"),
+      cep: "",
+      imagem: require("../assets/download.jpg"),
     },
     {
       id: "3",
-      nome: "Gaviões",
-      rua: "Av. Juruá, 253 - Alphaville",
+      nome: "Bétulas",
+      rua: "Praça das Rosas, 100 - Alphaville Comercial",
       cidade: "Barueri",
       estado: "SP",
-      cep: "06455-010",
-      imagem: require("../assets/academia-gavioes.jpg"),
+      cep: "06453-030",
+      imagem: require("../assets/download.png"),
     },
     {
       id: "4",
-      nome: "Bio Ritmo",
-      rua: "Av. Piracema, 669 - Tamboré",
-      cidade: "Barueri",
+      nome: "Favorita",
+      rua: "Rua Frederico Wolf, 174 - Vila Leopoldina",
+      cidade: "São Paulo",
       estado: "SP",
-      cep: "06460-030",
-      imagem: require("../assets/academia-bioRitmo.jpg"),
+      cep: "05304-030.",
+      imagem: require("../assets/sla.jpg"),
     },
   ];
 
@@ -104,7 +104,7 @@ export default function Home() {
       <TouchableOpacity onPress={() => router.push("/perfil")}>
       <Ionicons name="person-circle-outline" size={45} color="#FFF" />
       </TouchableOpacity>
-      <Text style={styles.userName}>Yuri</Text>
+      <Text style={styles.userName}>Guilherme</Text>
       </View>
 
       {/* Barra de busca */}
@@ -179,7 +179,7 @@ const styles = StyleSheet.create({
 
   card: {
     flexDirection: "row",
-    backgroundColor: "#004777",
+    backgroundColor: "#ff44efff",
     borderRadius: 35,
     marginBottom: 25,
     height: 173,

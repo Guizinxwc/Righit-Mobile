@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, StyleSheet, Image } from "react-native";
 
 const COLORS = {
-  primary: "#004777",
+  primary: "#ff44efff",
   black: "#000000",
   white: "#FFFFFF",
 };
@@ -18,7 +18,7 @@ export default function Header() {
       />
 
       {/* TÍTULO */}
-      <Text style={styles.title}>LOGYM</Text>
+      <Text style={styles.title}>TIME RIGHT</Text>
 
     </View>
   );
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
 
   logo: {
     position: "absolute",
-    left: 99,
+    left: 70,
     top: 32, // Altura da logo
     width: 60,
     height: 65,

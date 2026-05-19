@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
         color: "#585860"
     },
     footerLink:{
-        color: "#3366FF", //ou "#032ad7",
+        color: "#ff44efff", //ou "#ff44efff",
         fontWeight: "700",
     },
 })
