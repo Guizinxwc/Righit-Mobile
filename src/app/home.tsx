@@ -39,7 +39,7 @@ export default function Home() {
       cidade: "Barueri",
       estado: "SP",
       cep: "06401-050",
-      imagem: require("../assets/smartFit.webp"),
+      imagem: require("../assets/image.png"),
     },
     {
       id: "2",
