@@ -39,7 +39,7 @@ export default function Index() {
     <View style={styles.container}>
         
     <Image 
-        source={require("../assets/logoSemFundoNome.png")}
+        source={require("../assets/Logo TimeRight.png")}
 
 
 

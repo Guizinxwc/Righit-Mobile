@@ -13,7 +13,7 @@ export default function Header() {
       
       {/* LOGO */}
       <Image
-        source={require("../assets/logoSemFundo.png")}
+        source={require("../assets/Logo TimeRight.png")}
         style={styles.logo}
       />
 
