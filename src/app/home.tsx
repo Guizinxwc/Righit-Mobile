@@ -1,4 +1,5 @@
  import { Ionicons } from "@expo/vector-icons";
+import { router } from "expo-router";
 import React from "react";
 import {
   FlatList,
@@ -10,7 +11,6 @@ import {
   View,
 } from "react-native";
 import Header from "../components/header";
-import { router } from "expo-router";
 
 const COLORS = {
   background: "#D3D4D9",
@@ -31,7 +31,7 @@ type Academia = {
 
 // Dados de academias
 export default function Home() {
-  const academias: Academia[] = [
+  const academias: Academias[] = [
     {
       id: "1",
       nome: "Espaço Alphaville",
@@ -112,7 +112,7 @@ export default function Home() {
         <Ionicons name="search" size={20} color={COLORS.gray} />
 
         <TextInput
-          placeholder="Localizar academias"
+          placeholder="Salões de Beleza"
           placeholderTextColor={COLORS.gray}
           style={styles.input}
         />
